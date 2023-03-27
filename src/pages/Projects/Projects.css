@@ -1,0 +1,8 @@
+
+.projects__list{
+  display: flex;
+  column-gap: 30px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

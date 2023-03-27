@@ -1,4 +1,3 @@
-
 .header{
     padding: 40px 0;
     display: flex;
@@ -9,7 +8,7 @@
     min-height: 695px;
 
     background-color: var(--darkBg);
-    background-image: url('/src/img/headerBg.png');
+    background-image: url("/src/img/headerBg.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;

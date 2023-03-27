@@ -1,5 +1,5 @@
 import "./GithubBtn.css"
-import githubLogo from "./blackGithubIcon.svg"
+import githubLogo from "./blackGithubIcon.png"
 import { NavLink } from "react-router-dom";
 const GithubBtn = (props) => {
   return (

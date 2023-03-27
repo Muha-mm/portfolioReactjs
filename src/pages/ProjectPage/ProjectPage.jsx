@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import GithubBtn from "../../components/githubBtn/GithubBtn";
 import { projects } from "../../helpers.js/projectList";
+import  "./ProjectPage.css"
 
 const ProjectPage = () => {
   const { id } = useParams();

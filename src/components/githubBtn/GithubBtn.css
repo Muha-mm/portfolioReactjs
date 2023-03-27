@@ -1,14 +1,14 @@
 .projectDetails__githubRepoLinkBtn{
+    background-color: var(--white);
     display: flex;
     column-gap: 10px;
-    align-items: center;
     
     width: 169px;
     height: 48px;
     padding: 12px 20px;
 
-    border: 1px solid #000;
-    color: var(--pureBlack);
+    border: 1px solid rgb(88, 88, 88);
+    color: var(--black);
 
     transition: opacity 0.3s ease-in;
 
@@ -20,6 +20,12 @@
     border-radius: 5px;
 }
 
+.projectDetails__githubRepoLinkBtn img{
+    border-radius: 100px;
+    width: 23px;
+    height: 24px;
+}
+
 .projectDetails__githubRepoLinkBtn:active{
     position: relative; 
     top: 1px;
@@ -27,4 +33,5 @@
 
 .projectDetails__githubRepoLinkBtn:hover{
     color: var(--accent);
+    border-color: var(--accent);
 }

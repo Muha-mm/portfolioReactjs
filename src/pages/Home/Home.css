@@ -1,0 +1,26 @@
+ .skills{
+  padding-bottom: -20px;
+  max-width: 570px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 40px;
+}
+
+.skills__item{
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.3;
+}
+
+.skills__item__details{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.50;
+  color: var(--textColor);
+
+}

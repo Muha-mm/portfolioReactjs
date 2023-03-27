@@ -1,5 +1,6 @@
 import Project from "../../components/Project/Project"
 import {projects} from "../../helpers.js/projectList" 
+import "./Projects.css"
 
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
         <div className="container">
           <h1 className="section__title">Projects</h1>
 
-          <ul className="section__list">
+          <ul className="projects__list">
             {projects.map((project,index)=>{
                 return <Project key = {index} img={project.img} title={project.title} id = {index} />
             })}

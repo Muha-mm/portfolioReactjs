@@ -1,0 +1,26 @@
+.projects__list__item{
+  background-color: var(--projectBgColor);
+  max-width: 370px;
+  max-height: 350px;
+  box-shadow: var(--projectBoxShadow);
+  border-radius: 10px;
+  transition: transform 0.2s ease-in;
+}
+
+.projects__list__item:hover{
+  transform: translateY(-3px);
+}
+
+
+.projects__list__item__img{
+  box-shadow: var(--projectImgBoxShadow);
+  border-radius: 10px 10px 0 0 ;
+}
+
+.projects__list__item__title{
+  color: var(--textColor);
+  padding: 15px 20px 25px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+}
